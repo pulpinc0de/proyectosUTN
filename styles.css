@@ -62,6 +62,7 @@ body {
   .gallery-grid img {
     width: 100%;
     height: auto;
+    display: block;
     border-radius: 10px;
     transition: transform 0.3s ease;
   }
