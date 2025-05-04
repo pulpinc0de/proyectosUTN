@@ -17,6 +17,7 @@ body {
     font-style: normal;
   }
   
+  /* Titulo header */
   
   header h1 {
     font-size: 800%;
@@ -52,7 +53,83 @@ body {
     background-color: #ff85c1; 
     transform: scale(1.05); /
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+  }
   
+  .title {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Carattere', cursive;
+    font-size: 2.5rem;
+    color: #d45d79;
+  }
+
+  .ProductosEstrellas{
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* Cards */
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+ 
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .card h2 {
+    margin-top: 15px;
+    color: #b5466e;
+  }
+  
+  .card p {
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .card button {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    border-radius: 30px; 
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card button:hover {
+    background-color: #ff85c1
+  }
+
+  /* galeria  */
   .gallery-grid {
     display: grid;
     gap: 16px;
@@ -70,15 +147,16 @@ body {
   .gallery-grid img:hover {
     transform: scale(1.05);
   }
-  
-  footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 30px 0;
-    font-size: 12px;
+
+  .fondo {
+    width: 80%;
+    height: 33vh;
+    object-fit: cover; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
   
   #about {
     background-color: #f8f8f8;
@@ -86,7 +164,6 @@ body {
     text-align: center;
   }
   
-
   form h3 {
     text-align: center;
     background-color: #f8f8f8;
@@ -115,6 +192,14 @@ body {
       background-color: #ff85c1; 
       transform: scale(1.05); /
     }
-    
-  
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 12px;
+    }
+
+
 
