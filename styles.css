@@ -1,26 +1,31 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f0;
+  margin: 0;
+  padding: 0;
+}
+
   header {
-    text-align: center;
-    padding: 60px 20px;
-    background: #ff82c1;
-    background: linear-gradient(154deg, rgba(255, 130, 193, 1) 0%, rgba(252, 217, 234, 1) 20%, rgba(255, 189, 220, 1) 41%, rgba(249, 201, 255, 1) 70%, rgba(219, 181, 255, 1) 100%);
+  text-align: center;
+  padding: 60px 20px;
+  background: #ff82c1;
+  background: linear-gradient(154deg, rgba(255, 130, 193, 1) 0%, rgba(252, 217, 234, 1) 20%, rgba(255, 189, 220, 1) 41%, rgba(249, 201, 255, 1) 70%, rgba(219, 181, 255, 1) 100%);
   }
 
   .carattere-regular {
-    font-family: "Carattere", cursive;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .navbar {
+    font-family:sans-serif;
   }
   
   /* Titulo header */
   
   header h1 {
-    font-size: 800%;
+  font-size: 800%;
   }
 
 
@@ -51,15 +56,9 @@ body {
   
   header button:hover {
     background-color: #ff85c1; 
-    transform: scale(1.05); /
+    transform: scale(1.05);
   }
-
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-    margin: 0;
-    padding: 0;
-  }
+  
   
   .title {
     text-align: center;
@@ -85,48 +84,52 @@ body {
     gap: 20px;
     padding: 30px;
   }
-  
+
   .card {
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 300px;
     padding: 10px;
     text-align: center;
- 
+    transition: 0.3s ease;
   }
-  
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
   .card img {
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
   }
-  
+
   .card h2 {
     margin-top: 15px;
     color: #b5466e;
   }
-  
+
   .card p {
     font-size: 12px;
     color: #555;
     margin: 10px 0;
   }
-  
+
   .card button {
     margin-top: 20px;
     padding: 12px 28px;
-    background-color: #ff69b4; 
+    background-color: #ff69b4;
     color: white;
     border: none;
-    border-radius: 30px; 
+    border-radius: 30px;
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
+
   .card button:hover {
-    background-color: #ff85c1
+    background-color: #ff85c1;
   }
 
   /* galeria  */
